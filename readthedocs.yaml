@@ -23,5 +23,3 @@ python:
     - method: pip
       path: .  # اگر پکیج پایتون نیست، این خط را حذف یا کامنت کنید
     - requirements: docs/requirements.txt  # مسیر فایل requirements.txt
-build:
-  no_skip: true
