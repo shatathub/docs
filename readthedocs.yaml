@@ -1,16 +1,25 @@
+# .readthedocs.yml
 version: 2
 
+# تنظیمات عمومی
 build:
-  os: ubuntu-22.04
+  os: ubuntu-22.04  # سیستم عامل مورد استفاده
   tools:
-    python: "3.10"
+    python: "3.10"   # نسخه پایتون (مطمئن شوید با پروژه شما سازگار است)
 
+# فرمت‌های خروجی (اختیاری)
 formats:
   - pdf
   - epub
 
+# تنظیمات MkDocs
+mkdocs:
+  configuration: mkdocs.yml  # مسیر فایل پیکربندی MkDocs
+  fail_on_warning: false     # اگر می‌خواهید در صورت اخطار، build قطع نشود
+
+# نصب وابستگی‌ها (مهم!)
 python:
   install:
     - method: pip
-      path: .
-      extra_requirements: ["docs"]
+      path: .  # اگر پکیج پایتون نیست، این خط را حذف یا کامنت کنید
+    - requirements: docs/requirements.txt  # مسیر فایل requirements.txt
