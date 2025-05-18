@@ -1,0 +1,10 @@
+**/node_modules
+**/.cache
+build/
+openrpc.json
+refs-openrpc.json
+data.json
+schema.json
+*.dic
+.idea/
+.docusaurus
