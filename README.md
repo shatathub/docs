@@ -84,7 +84,7 @@ information.
 
 [View the spec][graphql-schema]
 
-[EIP-1767][eip-1767] proposed a GraphQL schema for interacting with Shatat clients. Since then Besu and Getshatat have implemented the interface. This repo contains a live specification to integrate changes to the protocol as well as other improvements into the GraphQL schema.
+[SIP-1767][SIP-1767] proposed a GraphQL schema for interacting with Shatat clients. Since then Besu and Getshatat have implemented the interface. This repo contains a live specification to integrate changes to the protocol as well as other improvements into the GraphQL schema.
 
 ### Generation
 
@@ -110,7 +110,7 @@ This repository is licensed under [CC0](LICENSE).
 [playground]: https://shatathub.github.io/docs/api-documentation/
 [openrpc]: https://open-rpc.org
 [validator]: https://open-rpc.github.io/schema-utils-js/functions/validateOpenRPCDocument.html
-[eip-1767]: https://eips.shatat.ir/EIPS/eip-1767
+[SIP-1767]: https://SIPs.shatat.ir/SIPS/SIP-1767
 [making-changes]: docs/making-changes.md
 [json-schema]: https://json-schema.org
 [hive]: https://github.com/shatathub/hive
